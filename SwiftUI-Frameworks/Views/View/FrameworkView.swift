@@ -18,6 +18,7 @@ struct FrameworkView: View {
                 .frame(width: 90, height: 90)
             Text(framework.name)
                 .fontWeight(.semibold)
+                .foregroundColor(Color(.label))
                 .font(.title2)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
